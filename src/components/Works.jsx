@@ -55,7 +55,7 @@ const Works = () => {
                     variants={fadeIn("", "", 0.1, 1)}
                     className="mt-3 text-second text-[17px] max-w-3xl leading-[30px]"
                 >
-                    At our organization, we take great pride in assisting individuals by means of a straightforward and effective three-step process. Our experienced team provides expert guidance on how and where to obtain the necessary resources, with the aim of enabling individuals to achieve their objectives with greater ease and efficiency.
+                    Our organization offers a three-step process to help individuals obtain necessary resources with expert guidance, enabling them to achieve their objectives with ease and efficiency.
                 </motion.p>
             </div>
 
