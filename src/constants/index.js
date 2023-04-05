@@ -142,16 +142,16 @@ import {
       ],
     },
     {
-      title: "Another startup that helps business",
+      title: "DropsShipping Service Provider",
       company_name: "Shopify",
       icon: shopify,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
         "Helps making online presence.",
-        "NIL.",
-        "NIL.",
-        "NIL.",
+        "Provide them with funding.",
+        "Helped them with their IPO.",
+        "Helped them with launch of their DropShipping Platform.",
       ],
     },
     {
@@ -161,10 +161,10 @@ import {
       iconBg: "#E6DEDD",
       date: "April 2023 - Present",
       points: [
-        "NIL.",
-        "NIL.",
-        "NIL.",
-        "NIL.",
+        "Helped them scale their platform to support 1 Billion online users.",
+        "Helped with the E-Comerce venture.",
+        "Helped With the launch of MetaVerse.",
+        "Helped in Oculus' IPO.",
       ],
     },
   ];
@@ -180,7 +180,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a Entrepreneur who truly cares about their fellow entrepreneur' success like BizHub does.",
+        "I've never met an Entrepreneur who truly cares about their fellow entrepreneur's success as BizHub does.",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",

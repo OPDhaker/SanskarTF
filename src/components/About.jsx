@@ -39,7 +39,7 @@ const About = () => {
         </motion.div>
 
         <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-            We are startup based in Ohio, we basically help out businesses we sell fake franchises and products of a particular company and take all the profits on our hand.
+            We are startup based in India, We help aspiring entrepreneurs to build and grow their business by providing them with the best services and tools to help them succeed.
         </motion.p>
 
         <div className="mt-20 flex flex-wrap gap-10">
