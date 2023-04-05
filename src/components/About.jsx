@@ -38,8 +38,8 @@ const About = () => {
             <h2 className={styles.sectionHeadText}>Overview.</h2>
         </motion.div>
 
-        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-            We are startup based in India, We help aspiring entrepreneurs to build and grow their business by providing them with the best services and tools to help them succeed.
+        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]">
+            As a startup based in India, we are passionate about supporting and empowering aspiring entrepreneurs to achieve their dreams of building and growing successful businesses. We understand the challenges and complexities that come with starting a new venture, which is why we offer a comprehensive range of services and cutting-edge tools to help our clients overcome these obstacles and thrive in today's competitive business landscape. Our mission is to provide the highest quality support and resources to our clients, enabling them to turn their visions into reality and create long-term success for themselves and their communities.<br/><br/><span className="font-bold text-[20px] green-text-gradient">Below are some main services that we provide to our clients.</span>
         </motion.p>
 
         <div className="mt-20 flex flex-wrap gap-10">

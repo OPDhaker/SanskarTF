@@ -119,7 +119,7 @@ import {
       title: "Coffee Company",
       company_name: "Starbucks",
       icon: starbucks,
-      iconBg: "#383E56",
+      iconBg: "#326e36",
       date: "March 2020 - April 2021",
       points: [
         "Developing and maintaining connections using Telephone and other related technologies.",

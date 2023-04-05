@@ -12,8 +12,8 @@ const Hero = () => {
                     <div className="w-1 sm:h-80 h-40 cyan-gradient" />
                 </div>
                 <div>
-                    <h1 className={`${styles.heroHeadText} text-white`}>Hi, We can Help Scale Your <span className="text-[#94ecbe]">Businesses</span></h1>
-                    <p className={`${styles.heroSubText} mt-2 text-white-100`}>Share Moments, Scale Business</p>
+                    <h1 className={`${styles.heroHeadText} text-white`}>Hi, We can Scale Your <br/><span className="text-secondary">Business</span></h1>
+                    <p className={`${styles.heroSubText} mt-2 text-white-100 font-extrabold`}>Share <span className="text-secondary ">Moments</span>,<br/> Scale <span className="text-secondary">Business</span></p>
                 </div>
             </div>
             <ComputersCanvas />
