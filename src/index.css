@@ -13,6 +13,29 @@
   color-scheme: dark;
 }
 
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgb(0, 0, 0);
+  border-radius: 10px;
+  background-color: #9eecbd;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  background-color: #1a1a1a;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #9eecbd;
+  background-image: -webkit-linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 161, 0, 0.4) 50%,
+    transparent,
+    transparent
+  );
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
