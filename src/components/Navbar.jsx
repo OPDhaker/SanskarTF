@@ -5,6 +5,9 @@ import { styles } from "../styles";
 import { navLinks} from "../constants"
 import { logo, menu, close} from "../assets";
 
+// import Popup from 'reactjs-popup';
+// import 'reactjs-popup/dist/index.css';
+
 const Navbar = () => {
 
 	const [active, setActive] = useState("");
@@ -37,6 +40,7 @@ const Navbar = () => {
 						>
 							<a href={`#${link.id}`}>{link.title}</a>
 						</li>
+						
 					))}
 				</ul>
 

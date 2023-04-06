@@ -1,0 +1,6 @@
+.hover-content{
+    display: none;
+}
+.team-info:hover + .hover-content{
+    display: block;
+}
