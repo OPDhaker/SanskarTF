@@ -29,10 +29,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
-        <div 
-        className="flex items-center relative z-0 content-center">
-            <ParticipantList />
-        </div>
+        <ParticipantList />
       </div>
     </BrowserRouter>
   );

@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.team-info{
+    font-family: 'Roboto', sans-serif;
+}
+
 .hover-content{
     display: none;
+}
+.hover-content:hover{
+    display: block;
 }
 .team-info:hover + .hover-content{
     display: block;
