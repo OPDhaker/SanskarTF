@@ -7,7 +7,7 @@ import link from "./link.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import github from "./github.png";
+import githubIcon from "./github.png";
 
 import apple from "./tech/apple.png";
 import visa from "./tech/visa.png";
@@ -61,5 +61,5 @@ export {
   dollar,
   hr,
   legal,
-  github,
+  githubIcon,
 };
