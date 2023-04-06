@@ -113,6 +113,19 @@ import {
       icon: visa,
     },
   ];
+
+  const devInfo = [
+    {
+      name: "Om Pratap Dhaker",
+      github: "OPDHaker",
+      link: "https://github.com/OPDhaker",
+    },
+    {
+      name: "Varad Sharma",
+      github: "Varad-Codes",
+      link: "https://github.com/Varad-Codes"
+    }
+  ];
   
   const experiences = [
     {
@@ -262,4 +275,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, devInfo };
