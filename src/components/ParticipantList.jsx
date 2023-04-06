@@ -5,6 +5,8 @@ import { SectionWrapper } from "../hoc";
 import { motion } from "framer-motion";
 import { slideIn, fadeIn, textVariant } from "../utils/motion";
 
+import { github } from "../assets";
+
 import { styles } from "../styles";
 import { devInfo } from "../constants";
 
