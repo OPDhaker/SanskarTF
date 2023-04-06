@@ -23,7 +23,7 @@ const DevCard = ({ index, link, name, github}) => {
           <div className="flex-1 flex flex-col">
             <p className="text-white font-medium test-[16px]">
                 {name} <br />
-              <span className="green-text-gradient">@</span> <a href={link}>{github}</a>
+              <span className="green-text-gradient">@</span> <a href={link} target="_blank">{github}</a>
             </p>
           </div>
         </div>
