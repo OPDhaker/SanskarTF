@@ -23,6 +23,8 @@ import {
     hr,
     legal,
     nintendo,
+    om,
+    varad,
   } from "../assets";
   
   export const navLinks = [
@@ -41,6 +43,10 @@ import {
     {
       id: "contact",
       title: "Contact",
+    },
+    {
+      id: "developers",
+      title: "Developers",
     },
   ];
   
@@ -117,19 +123,6 @@ import {
       icon: visa,
     },
   ];
-
-  const devInfo = [
-    {
-      name: "Om Pratap Dhaker",
-      github: "OPDHaker",
-      link: "https://github.com/OPDhaker",
-    },
-    {
-      name: "Varad Sharma",
-      github: "Varad-Codes",
-      link: "https://github.com/Varad-Codes"
-    }
-  ];
   
   const experiences = [
     {
@@ -186,9 +179,9 @@ import {
     },
   ];
   
-  const testimonials = [
+  const interviews = [
     {
-      testimonial:
+      interview:
         "I thought it was impossible to make my business as successful as our idea, but BizHub proved me wrong.",
       name: "Sara Lee",
       designation: "CFO",
@@ -196,7 +189,7 @@ import {
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
-      testimonial:
+      interview:
         "I've never met an Entrepreneur who truly cares about their fellow entrepreneur's success as BizHub does.",
       name: "Chris Brown",
       designation: "COO",
@@ -204,7 +197,7 @@ import {
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
-      testimonial:
+      interview:
         "After BizHub optimized our Business, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
@@ -213,7 +206,7 @@ import {
     },
   ];
   
-  const projects = [
+  const resources = [
     {
       name: "Capital",
       description:
@@ -279,4 +272,19 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects, devInfo };
+  const devInfo = [
+    {
+      name: "Om Pratap Dhaker",
+      github: "OPDhaker",
+      link: "https://github.com/OPDhaker",
+      image: om,
+    },
+    {
+      name: "Varad Sharma",
+      github: "Varad-Codes",
+      link: "https://github.com/Varad-Codes",
+      image: varad,
+    }
+  ];
+  
+  export { services, technologies, experiences, interviews, resources, devInfo };

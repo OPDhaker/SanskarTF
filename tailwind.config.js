@@ -4,6 +4,9 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      dropShadow: {
+        '3xl': '0 0px 20px #1fad64',
+      },
       colors: {
         primary: "#1a1a1a",
         secondary: "#94ecbe",

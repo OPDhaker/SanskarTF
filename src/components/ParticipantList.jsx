@@ -1,32 +1,26 @@
 import React from "react";
-import { SectionWrapper } from "../hoc";
-
 import { motion } from "framer-motion";
-import { slideIn, fadeIn, textVariant } from "../utils/motion";
 
+import { fadeIn, textVariant } from "../utils/motion";
+import { SectionWrapper } from "../hoc";
 import { githubIcon } from "../assets";
-
 import { styles } from "../styles";
 import { devInfo } from "../constants";
 
-// import "./ParticipantList.css";
-
-const DevCard = ({ index, link, name, github }) => {
+const DevCard = ({ index, link, name, github, image }) => {
   return (
     <motion.div
-      variants={fadeIn("", "spring", index * 0.5, 0.75)}
+      variants={fadeIn("up", "spring", index * 0.5, 2)}
       className="bg-primary p-10 rounded-3xl xs:w-[320px] w-full"
     >
-      <div className="mt-1">
-        {/* <p className="text-white tracking-wider text-[18px]">{testimonial}</p> */}
-        <div className="relative w-full h-[230px]">
-          {/* Git Hub Profile */}
+      <div>
+        <div className="relative w-full h-[230px] hover:-translate-y-3 ease-in-out duration-500 hover:drop-shadow-3xl">
           <img
-            src={`https://avatars.githubusercontent.com/${github}`}
+            src={image}
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+          <div className="absolute inset-0 flex justify-end m-3">
             <div
               onClick={() => window.open(link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
@@ -41,13 +35,8 @@ const DevCard = ({ index, link, name, github }) => {
         </div>
         <div className="mt-7 flex justify-between items-center gap-1">
           <div className="flex-1 flex flex-col">
-            <p className="text-white font-medium test-[16px]">
-              {name} <br />
-              <span className="green-text-gradient">@</span>{" "}
-              <a href={link} target="_blank">
-                {github}
-              </a>
-            </p>
+            <p className="text-white font-extrabold text-[20px]">{name}</p>
+            <p><span className="green-text-gradient">@&nbsp;</span>{github}</p>
           </div>
         </div>
       </div>
@@ -59,12 +48,12 @@ const ParticipantList = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>See Who Made This</p>
+        <p className={styles.sectionSubText}>TEAM DPS KOLAR</p>
         <h2 className={styles.sectionHeadText}>Developers.</h2>
       </motion.div>
 
       <motion.div>
-        <div className="mt-20 flex flex-wrap gap-7">
+        <div className="mt-1 flex flex-wrap gap-7">
           {devInfo.map((project, index) => (
             <DevCard key={`project-${index}`} index={index} {...project} />
           ))}
@@ -74,4 +63,4 @@ const ParticipantList = () => {
   );
 };
 
-export default SectionWrapper(ParticipantList, "Participant List");
+export default SectionWrapper(ParticipantList, "developers");

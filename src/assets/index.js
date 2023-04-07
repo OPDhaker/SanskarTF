@@ -32,6 +32,9 @@ import dollar from "./dollar.png";
 import hr from "./hr.png";
 import legal from "./legal.png";
 
+import om from "./om.png";
+import varad from "./varad.jpg";
+
 export {
   logo,
   backend,
@@ -62,4 +65,6 @@ export {
   hr,
   legal,
   githubIcon,
+  om,
+  varad,
 };

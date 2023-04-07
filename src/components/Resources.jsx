@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { link } from '../assets';
 import { SectionWrapper } from '../hoc';
-import { projects } from '../constants';
+import { resources } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion'
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+const ResourceCard = ({ index, name, description, tags, image, source_code_link }) => {
     return (
         <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
             <Tilt
@@ -60,8 +60,8 @@ const Works = () => {
             </div>
 
             <div className="mt-20 flex flex-wrap gap-7">
-                {projects.map((project, index) => (
-                    <ProjectCard
+                {resources.map((project, index) => (
+                    <ResourceCard
                         key={`project-${index}`}
                         index={index}
                         {...project}
@@ -73,4 +73,4 @@ const Works = () => {
     )
 }
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "resources");

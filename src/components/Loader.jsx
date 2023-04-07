@@ -1,5 +1,7 @@
 import { Html, useProgress } from '@react-three/drei';
 
+import { styles } from '../styles';
+
 
 const Loader = () => {
     const { progress } = useProgress();
@@ -8,8 +10,8 @@ const Loader = () => {
             <span className="canvas-load"></span>
             <p
                 style={{
-                    fontSize: 14,
-                    color: '#eec170',
+                    fontSize: 16,
+                    color: '#1fad9a',
                     fontWeight: 800,
                     marginTop: 40
                 }}
